@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {
+    background: rgb(16, 129, 120);
+    background: linear-gradient(90deg, rgba(16, 129, 120, 0.76234243697479) 0%, rgba(25, 101, 153, 0.700717787114846) 95%);
+}
+.selectedLink {
+    color: rgb(94, 234, 212);
+}
