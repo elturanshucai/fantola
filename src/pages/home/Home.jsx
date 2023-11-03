@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore from 'swiper'
 import { Navigation } from 'swiper/modules'
 import SwiperItem from './SwiperItem'
-import Footer from '../../components/Footer'
+import WhyFantola from './WhyFantola'
 
 export default function Home() {
   let images = [
@@ -16,8 +16,8 @@ export default function Home() {
   ]
   SwiperCore.use([Navigation])
   return (
-    <>
-      <div className='flex p-10 my-3 my-main'>
+    <div className=''>
+      <div className='flex p-10 items-center my-4'>
         <div className="flex flex-col w-1/2 gap-8">
           <p className='font-bold text-5xl'>
             <span className='text-teal-700'>Fan</span>
@@ -38,6 +38,7 @@ export default function Home() {
           </Swiper>
         </div>
       </div>
-    </>
+      <WhyFantola/>
+    </div>
   )
 }
