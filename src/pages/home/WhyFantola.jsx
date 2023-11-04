@@ -3,9 +3,9 @@ import {AiOutlineCheckCircle} from 'react-icons/ai'
 
 export default function WhyFantola() {
     return (
-        <div className='why-fantola flex text-white p-20'>
+        <div className='why-fantola flex text-white px-5 py-10 sm:p-20'>
             <div className="w-1/2 flex flex-col gap-3">
-                <h2 className='font-extrabold text-4xl mb-2'>Niyə Fantola ?</h2>
+                <h2 className='font-extrabold text-xl sm:text-4xl mb-2'>Niyə Fantola ?</h2>
                 <p className="flex gap-2 items-center">
                     <AiOutlineCheckCircle/>
                     <span>Yüksək keyfiyyət</span>

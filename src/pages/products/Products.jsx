@@ -11,7 +11,7 @@ export default function Products() {
     { img: 'image6.jpg', title: 'Yellow' }
   ]
   return (
-    <div className='grid grid-cols-3 gap-6 p-10'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-6 p-10'>
       {array.map(item => (
         <ProductItem item={item} />
       ))}
